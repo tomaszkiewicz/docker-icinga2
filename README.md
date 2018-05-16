@@ -171,6 +171,7 @@ The variables default their respective `DEFAULT` service variable.
 
 | Environmental Variable | Default Value | Description |
 | ---------------------- | ------------- | ----------- |
+| `ICINGA2_FQDN` | $(hostname) | Overrides default hostname used in Icinga2 configuration, useful e.g. in Kubernetes deployment |
 | `ICINGA2_FEATURE_GRAPHITE` | false | Set to true or 1 to enable graphite writer |
 | `ICINGA2_FEATURE_GRAPHITE_HOST` | graphite | hostname or IP address where Carbon/Graphite daemon is running |
 | `ICINGA2_FEATURE_GRAPHITE_PORT` | 2003 | Carbon port for graphite |
